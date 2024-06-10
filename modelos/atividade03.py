@@ -77,7 +77,7 @@ class ContaBanco:
     @classmethod
     def printar(cls):
         for i in cls.CONTAS:
-            print(f'\n\n{cls.nome} {cls.idade} {cls.estado} {cls.saldo} {cls.status} \n\n')
+            print(f'Nome: {i.nome} Idade: {i.idade} Estado: {i.estado} Saldo Bancario: {i.saldo} Estado civil: {i.status}')
     
 
 contab1 = ContaBanco('Jose', 17, 'PR', 0.2, 'SOLTEIRO')
